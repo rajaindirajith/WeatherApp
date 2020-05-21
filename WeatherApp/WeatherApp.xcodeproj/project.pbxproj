@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0F09481A2475C091004D0D75 /* CurrentLocationWeatherScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0948192475C091004D0D75 /* CurrentLocationWeatherScreen.swift */; };
 		0F09481C2475C0BC004D0D75 /* CurrentLocationWeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F09481B2475C0BC004D0D75 /* CurrentLocationWeatherResponse.swift */; };
+		0F30CF062476AA9600279E1D /* MockWeatherCurrentLocationData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F30CF022476AA9500279E1D /* MockWeatherCurrentLocationData.json */; };
+		0F30CF072476AA9600279E1D /* MockWeatherCitiesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F30CF032476AA9500279E1D /* MockWeatherCitiesData.json */; };
+		0F30CF082476AA9600279E1D /* MockWeatherAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F30CF052476AA9600279E1D /* MockWeatherAPIManager.swift */; };
 		0FB00B752475BC7400073FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB00B742475BC7400073FA7 /* AppDelegate.swift */; };
 		0FB00B772475BC7400073FA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB00B762475BC7400073FA7 /* ViewController.swift */; };
 		0FB00B7A2475BC7400073FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB00B782475BC7400073FA7 /* Main.storyboard */; };
@@ -51,6 +54,9 @@
 /* Begin PBXFileReference section */
 		0F0948192475C091004D0D75 /* CurrentLocationWeatherScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationWeatherScreen.swift; sourceTree = "<group>"; };
 		0F09481B2475C0BC004D0D75 /* CurrentLocationWeatherResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationWeatherResponse.swift; sourceTree = "<group>"; };
+		0F30CF022476AA9500279E1D /* MockWeatherCurrentLocationData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockWeatherCurrentLocationData.json; sourceTree = "<group>"; };
+		0F30CF032476AA9500279E1D /* MockWeatherCitiesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockWeatherCitiesData.json; sourceTree = "<group>"; };
+		0F30CF052476AA9600279E1D /* MockWeatherAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockWeatherAPIManager.swift; sourceTree = "<group>"; };
 		0FB00B712475BC7400073FA7 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB00B742475BC7400073FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB00B762475BC7400073FA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F30CF042476AA9600279E1D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0F30CF052476AA9600279E1D /* MockWeatherAPIManager.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		0FB00B682475BC7400073FA7 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +160,9 @@
 		0FB00B882475BC7500073FA7 /* WeatherAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				0F30CF042476AA9600279E1D /* Mocks */,
+				0F30CF032476AA9500279E1D /* MockWeatherCitiesData.json */,
+				0F30CF022476AA9500279E1D /* MockWeatherCurrentLocationData.json */,
 				0FB00B892475BC7500073FA7 /* WeatherAppTests.swift */,
 				0FB00B8B2475BC7500073FA7 /* Info.plist */,
 			);
@@ -333,6 +350,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F30CF062476AA9600279E1D /* MockWeatherCurrentLocationData.json in Resources */,
+				0F30CF072476AA9600279E1D /* MockWeatherCitiesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB00B8A2475BC7500073FA7 /* WeatherAppTests.swift in Sources */,
+				0F30CF082476AA9600279E1D /* MockWeatherAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
