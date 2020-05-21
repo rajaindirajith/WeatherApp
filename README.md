@@ -8,4 +8,5 @@
     1.Get weather using Search cities/using current location
     2.If you search using current Location, you will get a pop for asking location premission, do "allow". If User clicked "not allowed" , then search will not hapen. To re enable "Location premissions" goto setting-> Weather app -> Location->enable
 
--Test cases for API services can be written by adopeting the Protocol "WeatherAPIManagable" and adding Stubs
+-Can Execute the test case in WeatherAppTests.swift file. Test cases for API services are written adopeting the Protocol "WeatherAPIManagable" and adding Stubs
+
